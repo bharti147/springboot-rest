@@ -20,10 +20,7 @@ public class ValidationAspect {
             postId = -postId;
             LOGGER.info("postId is updated" + jp.getSignature().getName());
         }
-
         Object obj  =  jp.proceed(new Object[]{postId});
-
-
         return obj;
     }
 
