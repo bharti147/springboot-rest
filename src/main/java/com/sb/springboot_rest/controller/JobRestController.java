@@ -1,11 +1,8 @@
-package com.sb.springboot_rest;
-
+package com.sb.springboot_rest.controller;
 import com.sb.springboot_rest.model.JobPost;
 import com.sb.springboot_rest.service.JobService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 
 @RestController
